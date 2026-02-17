@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify-clone</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -18,7 +20,8 @@
             </div>
 
             <div class="search-bar">
-                <i class="fa-solid fa-house"></i>
+                <i class="fa-solid fa-house home-icon"></i>
+                <i class="fa fa-search search-icon" aria-hidden="true"></i>
                 <input type="text" placeholder="What do you want to play?" />
             </div>
 
@@ -34,15 +37,233 @@
                     <li class="navlinks">Support</li>
                     <li class="navlinks">Download</li>
                 </ul>
-                
-            </div>
-                
-            </div>
-        </nav>
 
-        <div class="Leftaside"></div>
-        <div class="mainContent"></div>
-        <div class="footerBotton"></div>
+            </div>
+
+    </div>
+    </nav>
+
+    <!-- Leftaside -->
+    <div class="Leftaside">
+        <div class="Leftaside-top">
+            <p>Your Library</p>
+            <button class="create-btn">+<span style="font-size: 60%; font-weight: bold; margin-left:6px;">Create</span>
+            </button>
+        </div>
+
+        <div class="Leftaside-main">
+            <div class="Leftaside-main-content">
+                <h4>Create your first playlist</h4>
+                <h5>It's easy we will help you</h5>
+                <button class="Leftaside-main-btn">Create playlist</button>
+            </div>
+
+            <div class="Leftaside-main-content">
+                <h4>Let's find some podcast to follow</h4>
+                <h5>We will keep updated on new eposide</h5>
+                <button class="Leftaside-main-btn">Browser Podcast</button>
+            </div>
+        </div>
+
+
+        <div class="Leftaside-bottom">
+            <div class="links">
+                <ul>
+                    <li class="link-item">Legal.</li>
+                    <li class="link-item">Saftey & Privacy Center.</li>
+                    <li class="link-item">Privacy Policy.</li>
+                    <li class="link-item">Cookies.</li>
+                    <li class="link-item">About Ads.</li>
+                    <li class="link-item">Availability.</li>
+                </ul>
+                <a href="#" style="color: white ;margin-left:16px; text-decoration: none; font-size: 75%;">Cookies</a>
+            </div>
+
+            <button class="lang-button"><i class="fa-light fa-earth-americas" style="color :black"></i> English</button>
+        </div>
+    </div>
+
+    <!-- mainContent -->
+    <div class="mainContent">
+        <div class="mainContent-titles">
+            <h2>Trending Songs</h2>
+            <p>Show all</p>
+        </div>
+        <div class="mainContent-content">
+            
+            <div class="card">
+                <img src="assets/trending-song/song1.jpg" alt="songCard">
+                <h4>Dil Lagana Mana Tha</h4>
+                <p>Krish Mondal, Kishore Mondal,Devv Sadaana,...</p>
+                <div class="play-symbol"><i class="fa-solid fa-circle-play"></i></div>
+            </div>
+
+            <div class="card">
+                <img src="assets/trending-song/song2.jpg" alt="songCard">
+                <h4>Dil Lagana Mana Tha</h4>
+                <p>Krish Mondal, Kishore Mondal,Devv Sadaana,...</p>
+            </div>
+
+            <div class="card">
+                <img src="assets/trending-song/song3.jpg" alt="songCard">
+                <h4>Dil Lagana Mana Tha</h4>
+                <p>Krish Mondal, Kishore Mondal,Devv Sadaana,...</p>
+            </div>
+
+            <div class="card">
+                <img src="assets/trending-song/song4.jpg" alt="songCard">
+                <h4>Dil Lagana Mana Tha</h4>
+                <p>Krish Mondal, Kishore Mondal,Devv Sadaana,...</p>
+            </div>
+
+            <div class="card">
+                <img src="assets/trending-song/song5.jpg" alt="songCard">
+                <h4>Dil Lagana Mana Tha</h4>
+                <p>Krish Mondal, Kishore Mondal,Devv Sadaana,...</p>
+            </div>
+
+            <div class="card">
+                <img src="assets/trending-song/song6.jpg" alt="songCard">
+                <h4>Dil Lagana Mana Tha</h4>
+                <p>Krish Mondal, Kishore Mondal,Devv Sadaana,...</p>
+            </div>
+
+            <div class="card">
+                <img src="assets/trending-song/song7.jpg" alt="songCard">
+                <h4>Dil Lagana Mana Tha</h4>
+                <p>Krish Mondal, Kishore Mondal,Devv Sadaana,...</p>
+            </div>
+
+            <div class="card">
+                <img src="assets/trending-song/song8.jpg" alt="songCard">
+                <h4>Dil Lagana Mana Tha</h4>
+                <p>Krish Mondal, Kishore Mondal,Devv Sadaana,...</p>
+            </div>
+
+        </div>
+
+        <div class="mainContent-titles">
+            <h2>Popular artists</h2>
+            <p>Show all</p>
+        </div>
+        <div class="mainContent-content">
+
+            <div class="card" id="artist-card">
+                <img src="assets/artist/Artist1.jpg" alt="songCard">
+                <h4>Pritam</h4>
+                <p>Artist</p>
+            </div>
+
+            <div class="card" id="artist-card">
+                <img src="assets/artist/Artish2.jpg" alt="songCard">
+                <h4>Arjit Singh</h4>
+                <p>Artist</p>
+            </div>
+
+            <div class="card" id="artist-card">
+                <img src="assets/artist/Artist3.jpg" alt="songCard">
+                <h4>Atif Aslam</h4>
+                <p>Artist</p>
+            </div>
+
+            <div class="card" id="artist-card">
+                <img src="assets/artist/Artist4.jpg" alt="songCard">
+                <h4>Yo Yo Honey Singh</h4>
+                <p>Artist</p>
+            </div>
+
+            <div class="card" id="artist-card">
+                <img src="assets/artist/Artist5.jpg" alt="songCard">
+                <h4>Sachin-Jigar</h4>
+                <p>Artist</p>
+            </div>
+
+            <div class="card" id="artist-card">
+                <img src="assets/artist/Artist6.jpg" alt="songCard">
+                <h4>Vishal-Shekar</h4>
+                <p>Artist</p>
+            </div>
+
+            <div class="card" id="artist-card">
+                <img src="assets/artist/Artist7.jpg" alt="songCard">
+                <h4>A.R.Rahman</h4>
+                <p>Artist</p>
+            </div>            
+        </div>
+
+        <div class="mainContent-titles">
+            <h2>Popular albums and singles</h2>
+            <p>Show all</p>
+        </div>
+        <div class="mainContent-content">
+            
+            <div class="card">
+                <img src="assets/song1.jpg" alt="songCard">
+                <h4>Aashiqui 2</h4>
+                <p>Mithoon, Ankit Tiwari, Jeet Ganguli</p>
+            </div>
+
+            <div class="card">
+                <img src="assets/song1.jpg" alt="songCard">
+                <h4>Dil Lagana Mana Tha</h4>
+                <p>Krish Mondal, Kishore Mondal,Devv Sadaana,...</p>
+            </div>
+
+            <div class="card">
+                <img src="assets/song1.jpg" alt="songCard">
+                <h4>Dil Lagana Mana Tha</h4>
+                <p>Krish Mondal, Kishore Mondal,Devv Sadaana,...</p>
+            </div>
+
+            <div class="card">
+                <img src="assets/song1.jpg" alt="songCard">
+                <h4>Dil Lagana Mana Tha</h4>
+                <p>Krish Mondal, Kishore Mondal,Devv Sadaana,...</p>
+            </div>
+
+            <div class="card">
+                <img src="assets/song1.jpg" alt="songCard">
+                <h4>Dil Lagana Mana Tha</h4>
+                <p>Krish Mondal, Kishore Mondal,Devv Sadaana,...</p>
+            </div>
+
+            <div class="card">
+                <img src="assets/song1.jpg" alt="songCard">
+                <h4>Dil Lagana Mana Tha</h4>
+                <p>Krish Mondal, Kishore Mondal,Devv Sadaana,...</p>
+            </div>
+
+            <div class="card">
+                <img src="assets/song1.jpg" alt="songCard">
+                <h4>Dil Lagana Mana Tha</h4>
+                <p>Krish Mondal, Kishore Mondal,Devv Sadaana,...</p>
+            </div>
+
+            <div class="card">
+                <img src="assets/song1.jpg" alt="songCard">
+                <h4>Dil Lagana Mana Tha</h4>
+                <p>Krish Mondal, Kishore Mondal,Devv Sadaana,...</p>
+            </div>
+
+            <div class="card">
+                <img src="assets/song1.jpg" alt="songCard">
+                <h4>Dil Lagana Mana Tha</h4>
+                <p>Krish Mondal, Kishore Mondal,Devv Sadaana,...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footerBotton -->
+    <div class="footerBotton">
+        <div class="footerBotton-left">
+            <h5>Preview of Spotify</h5>
+            <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+        </div>
+
+        <div class="footerBotton-right">
+            <button>Sign up free</button>
+        </div>
+    </div>
     </div>
 </body>
 
