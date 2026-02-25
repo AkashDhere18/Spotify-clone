@@ -23,8 +23,14 @@ body{
     top:0;
     left:0;
     right: 0;
-    height:60px
-    
+    height:60px;
+    padding: 0 12px;
+}
+
+.navTop-left{
+    display: flex;
+    gap: 18px;
+    /* padding: 0 18px; */
 }
 
 .logo i{
@@ -33,17 +39,25 @@ body{
     font-size: 200%;
     color: white;
     margin-left: 12px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
+
 .search-bar{
     position: relative;
 }
 .home-icon{
-    /* width:80px ;
-    height:50px; */
+    width:40px ;
+    height:30px;
     font-size: 180%;
     color: white;
     border-radius: 50%;
     margin-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    /* background-color: gray;
+    border-radius: 50%;
+    padding: 16px 16px; */
 }
 .search-icon{
     font-size: 160%;
@@ -53,7 +67,7 @@ body{
     margin-right: 8px;
     position: absolute;
     left:60px;
-    top:10px;
+    top:16px;
 }
 
 .search-bar input{
@@ -65,13 +79,34 @@ body{
     background-color: rgba(128, 128, 128, 0.299);
 }
 
-.navlist{
-    display: inline-block;
-}
-.navlinks {
-    display: inline-block;
-    color: gray;
+.navlist a{
+    text-decoration: none;
+    color:rgb(192, 192, 192) ;
     font-weight: bold;
+    font-size: medium;
+    margin: 0 3px;
+}
+
+.nav-a a{
+    text-decoration: none;
+    color:rgb(192, 192, 192) ;
+    font-size: 85%;
+    font-weight: bold;
+    margin: 0 8px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-btn{
+    padding: 16px 32px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    color: black;
 }
 
 /* Left-Side */
@@ -235,10 +270,11 @@ body{
 }
 
 .card:hover{
-    /* background-color: #3837369f; */
+    background-color: #3837369f;
     background-image: linear-gradient();
     border-radius: 6px;
-    /* padding: 5px 12px; */
+    padding: 5px 12px;
+    transition: background-color 0.2s ease-in 0.3s;
 }
 
 .card:hover .play-symbol{
